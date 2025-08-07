@@ -49,7 +49,7 @@ const Navbar = () => {
           <li className='py-1'>CONTACT</li>
           <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
         </NavLink>
-         <NavLink to='/adm' >
+         <NavLink to={import.meta.env.VITE_ADMIN_URL} >
           <p className='border px-2.5 py-0.5 rounded-full border-gray-500 text-gray-600'> Admin Panel</p>
         </NavLink>
       </ul>
