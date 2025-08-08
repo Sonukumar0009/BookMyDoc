@@ -19,10 +19,9 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between text-sm py-4 mb-5 border-b border-b-[#ADADAD]'>
      
-<div className="flex items-center gap-2">
+<div onClick={() => navigate('/')} className="flex items-center gap-2 cursor-pointer">
   <img
-    onClick={() => navigate('/')}
-    className="w-10 h-10 cursor-pointer"
+   className="w-10 h-10"
     src={resizedIcon}
     alt="Logo"
   />
